@@ -1,0 +1,14 @@
+/* 
+    Document   : stylesheet
+    Created on : 28-nov-2012, 11:44:46
+    Author     : Bastiaan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#start_incision_time {
+	font-size: 2.5em;
+	text-align: center;
+	color: #262262;
+	margin-top: 1.0em;
+}

@@ -1,0 +1,21 @@
+#day {
+	text-align: center;
+	color: #fcb040;
+	font-size: 1.1em;
+	margin-top: 0.6em;
+}
+
+#date {
+	text-align: center;
+	color: #fcb040;
+	font-size: 1.0em;
+	margin-top: 0.1em;
+}
+
+#time {
+	text-align: center;
+	color: #fff;
+	margin-top: 0.1em;
+	font-size: 2.0em;
+}
+

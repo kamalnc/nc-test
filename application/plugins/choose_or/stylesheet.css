@@ -1,0 +1,36 @@
+#title  {
+	text-align: center;
+	font-size: 5.5em;
+	color: #b3d4fc;
+}
+
+#choose_or {
+	border-radius: 0 0 3em 3em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.room:hover {
+	box-shadow: #fff 1px 2px 9px;
+	cursor: pointer;
+}
+
+.room:hover .room_name {
+	color: #fbb040;
+}
+
+.room_name {
+	font-size: 2em;
+	margin-left: 5px;
+	color: #fff;
+}
+
+.unit_name {
+	position: absolute;
+	font-size: 0.6em;
+	color: #ccc;
+	bottom: 0;
+	left: 5px;
+}

@@ -1,0 +1,31 @@
+/* 
+    Document   : stylesheet
+    Created on : 27-nov-2012, 14:24:19
+    Author     : Bastiaan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#patientnumber{ 
+    font-size: 1.8em;
+	position: absolute;
+	color: #262262;
+	left: 0.4em;
+	margin-top: 0.4em;
+}
+
+#gender{
+	font-size: 1.8em;
+	position: absolute;
+	color: #262262;
+	left: 0.4em;
+	margin-top: 1.6em;
+}
+
+#birthdate{
+	font-size: 1.5em;
+	position: absolute;
+	color: #474175;
+	left: 0.4em;
+	margin-top: 3.4em;
+}

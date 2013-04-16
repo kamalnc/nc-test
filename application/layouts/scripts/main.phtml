@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NC - OK Paneel v2</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/plugins.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/report.css">
+        <?php echo $this->cssHelper($this->plugins) ?> 
+        <script src="/js/jquery.js"></script>
+        <script src="/js/plugins.js"></script>
+        <script src="/js/isotope.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/modalbox.js"></script>
+        <?php $this->javascriptHelper($this->plugins); ?> 
+        <?php echo $this->headScript() ?> 
+
+    </head>
+    <body>
+        <?php echo $this->layout()->content; ?>
+    </body>
+</html>

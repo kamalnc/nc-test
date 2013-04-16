@@ -1,0 +1,17 @@
+/* 
+    Document   : stylesheet
+    Created on : 24-dec-2012, 11:22:08
+    Author     : Bastiaan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#med_gasses_current{
+	text-align: center;
+	font-size: 6.0em;
+	margin-top: 0.1em;
+}

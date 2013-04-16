@@ -1,0 +1,24 @@
+/* 
+    Document   : stylesheet
+    Created on : 28-nov-2012, 10:55:41
+    Author     : Bastiaan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#specialist{ 
+    font-size: 2.0em;
+	position: absolute;
+	color: #262262;
+	left: 0.6em;
+	margin-top: 0.6em;
+}
+
+#operation{
+	font-size: 2.0em;
+	position: absolute;
+	color: #262262;
+	left: 0.6em;
+	margin-top: 1.7em;
+}
+

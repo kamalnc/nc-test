@@ -1,0 +1,30 @@
+/* 
+    Document   : stylesheet
+    Created on : 27-nov-2012, 15:59:32
+    Author     : Bastiaan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#sun_cloud_pic { 
+    width: 6.5em;
+	position: absolute;
+	top: 1em;
+	left: 1em;
+}
+
+#temperature {
+	font-size: 2.8em;
+	position: absolute;
+	color: #fcb040;
+	margin-top: 0.3em;
+	right: 0.8em;
+}
+
+#humidity{
+    font-size: 2.8em;
+	position: absolute;
+	color: #fff;
+	margin-top: 1.1em;
+	right: 0.7em;
+}

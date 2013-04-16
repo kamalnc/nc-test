@@ -1,0 +1,63 @@
+<style>
+    #title  {
+	text-align: center;
+	font-size: 5.5em;
+	color: #b3d4fc;
+}
+
+#choose_or {
+	border-radius: 0 0 3em 3em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.room:hover {
+	box-shadow: #fff 1px 2px 9px;
+	cursor: pointer;
+}
+
+.room:hover .room_name {
+	color: #fbb040;
+}
+
+.room_name {
+	font-size: 2em;
+	margin-left: 5px;
+	color: #fff;
+}
+
+.unit_name {
+	position: absolute;
+	font-size: 0.6em;
+	color: #ccc;
+	bottom: 0;
+	left: 5px;
+}
+
+#choose_or_title {
+    color: #B3D4FC;
+    font-size: 5.5em;
+    text-align: center;
+}
+</style>
+<?php 
+$height = 1 + ((int) (count($this->rooms) / 7) + 1);
+?>
+
+<div id="layout" data-width="7" data-height="<?php echo $height?>">
+    <div data-height="1" data-width="7" class="module wide bg_blue_gradient" id="choose_or">
+        <div id="choose_or_title">Kies een OK </div>
+    </div>
+
+ <?php foreach ($this->rooms as $room): ?>    
+    <a href="index/showroom/room/<?php echo $room['ID']?>">
+    <div data-height="1" data-width="1" class="module room bg_light_blue_gradient" id="room_<?php echo $room['ID']?>">
+        <div class="room_name"><?php echo $room['name']?></div>
+        <div class="unit_name"><?php echo $room['unit']?></div>
+    </div>
+    </a>
+    
+ <?php endforeach; ?>   
+</div>

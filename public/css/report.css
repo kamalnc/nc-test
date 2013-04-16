@@ -1,0 +1,421 @@
+#report {
+    font-weight: bold;
+}
+
+.box {
+    margin: 3px 3px 2px 2px;
+    float: left;
+    position: relative;
+}
+
+.light_blue_gradient {
+    background: #5ba9df;
+    background: -moz-linear-gradient(left,  #5ba9df 0%, #8cc2e6 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#5ba9df), color-stop(100%,#8cc2e6));
+    background: -webkit-linear-gradient(left,  #5ba9df 0%,#8cc2e6 100%);
+    background: -o-linear-gradient(left,  #5ba9df 0%,#8cc2e6 100%);
+    background: -ms-linear-gradient(left,  #5ba9df 0%,#8cc2e6 100%);
+    background: linear-gradient(left,  #5ba9df 0%,#8cc2e6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ba9df', endColorstr='#8cc2e6',GradientType=1 );
+}
+
+.blue_gradient_rtl {
+    background: #8cc2e6;
+    background: -moz-linear-gradient(left,  #8cc2e6 0%, #5ba9df 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#8cc2e6), color-stop(100%,#5ba9df));
+    background: -webkit-linear-gradient(left,  #8cc2e6 0%,#5ba9df 100%);
+    background: -o-linear-gradient(left,  #8cc2e6 0%,#5ba9df 100%);
+    background: -ms-linear-gradient(left,  #8cc2e6 0%,#5ba9df 100%);
+    background: linear-gradient(left,  #8cc2e6 0%,#5ba9df 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cc2e6', endColorstr='#5ba9df',GradientType=1 );
+}
+
+.grey {
+    background: #ccc;
+}
+
+.green_gradient {
+    background: #006417;
+    background: -moz-linear-gradient(left,  #006417 0%, #09a831 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#006417), color-stop(100%,#09a831));
+    background: -webkit-linear-gradient(left,  #006417 0%,#09a831 100%);
+    background: -o-linear-gradient(left,  #006417 0%,#09a831 100%);
+    background: -ms-linear-gradient(left,  #006417 0%,#09a831 100%);
+    background: linear-gradient(left,  #006417 0%,#09a831 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006417', endColorstr='#09a831',GradientType=1 );
+}
+
+.red_gradient {
+    background: #b51c21;
+    background: -moz-linear-gradient(left,  #b51c21 0%, #ef5742 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b51c21), color-stop(100%,#ef5742));
+    background: -webkit-linear-gradient(left,  #b51c21 0%,#ef5742 100%);
+    background: -o-linear-gradient(left,  #b51c21 0%,#ef5742 100%);
+    background: -ms-linear-gradient(left,  #b51c21 0%,#ef5742 100%);
+    background: linear-gradient(left,  #b51c21 0%,#ef5742 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b51c21', endColorstr='#ef5742',GradientType=1 );
+}
+
+.field {
+    background: #E0EDF6;
+    float: left;
+    color: #23445F;
+    position: relative;
+    width: 100%;
+    font-size: 11px;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.aqp_layout .field {
+    margin-top: 5px;
+    padding: 4px 0 
+}
+
+    WTF IE7
+
+.lt-ie8 .field {
+    float: none; 
+}
+
+.field span.label, .field label {
+    float: left;
+    margin-left: 5px;
+}
+.field span.value, .field input {
+    float: right;
+    margin-right: 5px;
+    color: #000;
+} 
+
+.field span.value {
+    text-align: right;
+}
+
+.field input {
+    width: 120px;
+    font-size: 14px;
+    padding: 3px;
+    text-align: right;
+    font-weight: bold;
+    border: solid 2px #4C9DBF;
+}
+
+.spacer {
+    clear: left;
+    height: 5px;
+}
+
+
+#report_patient_box {
+    height: 80px;
+}
+
+#report_operation_box {
+    height: 310px;
+}
+
+#report_ab_box {
+    height: 170px;
+}
+
+#report_door_box {
+    height: 102px;
+}
+
+#report_compliance_box {
+    height: 113px;
+}
+
+.report_bar {
+    float: right; margin: 5px 5px 5px 0; color: #fff;
+}
+
+.report_bar > span {
+    cursor: pointer;
+}
+
+.report_bar > span > a{
+    color: white;
+    text-decoration: none;
+}
+
+#report > div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#report h2 {
+  color: #fff;
+}
+
+#report h1 {
+    margin: 0;
+}
+
+.report_box {
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 11px;
+}
+
+.report_box .field {
+    width: 100%;
+    padding: 3px 0 4px 0;
+    margin: 2px 0 0 0;
+}
+
+#report_surgical_procedure {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: right;
+    width: 80%;
+}
+
+#report_surgical_procedure:hover {
+    overflow: visible;
+}
+
+.report_box small {
+    font-weight: normal;
+    font-size: 11px;
+    float: right;
+}
+
+#comments_place_report {
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.aqp .left, .aqp .left > div {
+    width: 512px;
+    float: left;
+}
+
+.aqp .right {
+    margin-left: 3px;
+    width: 509px;
+    float: left;
+}
+
+.aqp .right > div {
+    width: 506px;
+}
+
+#print_page {
+    background: url("../img/printer.png") no-repeat left center;
+    padding: 0 0 0 30px;
+	font-weight: bold;
+	font-size: 16px;
+    cursor: pointer;
+}
+
+.powi {
+    background-color: #FFD99A !important;
+}
+
+.powi .label {
+    font-weight: bold !important;
+}
+
+.aqp .report_box .field > .label {
+    font-weight: bold;
+    color: #004483;
+}
+
+.aqp .report_box .field > .value {
+    font-size: 12px;
+}
+
+.aqp.field {
+    background-color: #E9FFAF;
+}
+
+.report_box .big, .report_box .big span.value {
+    font-size: 20px;
+}
+
+#final_grade {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.report_box span.red {
+    color: #C00
+}
+
+.report_box span.green {
+    color: #3BAB00
+}
+
+
+#report_comments {
+    overflow-y: auto;
+    height: 44px;
+    position: absolute;
+    right: 8px;
+    top: 0;
+    padding: 2px;
+    width: 75%;
+    color: #000;
+    background: #E0EDF6;
+    margin-top: 10px;
+}
+
+#comment_box {
+    height: 65px;
+}
+
+.lt-ie8 #comment_box {
+    margin-top: 5px;
+}
+
+.aqp_layout {
+    width: 1026px;
+}
+
+.aqp_layout .box {
+    width: 1021px;
+}
+
+.aqp_layout .normal_column {
+    width: 305px;
+    float: left;
+}
+
+.aqp_layout .normal_column .box {
+    width: 300px;
+}
+
+.aqp_layout .wide_column {
+    width: 416px;
+    float: left;
+}
+
+.aqp_layout .wide_column .box {
+    width: 411px;
+}
+
+.aqp_layout .middleheight {
+    height: 409px;
+}
+
+.aqp_layout .stoplight_height {
+    height: 133px;
+}
+
+.aqp_layout #start_button_container {
+    height: 64px; margin-right: 0
+}
+
+.aqp_layout #stop_button_container {
+    height: 64px; margin-right: 0
+}
+
+#aqp_header {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding: 5px 8px;
+    width: 285px;
+    border-right: 5px solid #fff;
+    height: 100%;
+}
+
+.basic_layout {
+	width: 355px;
+}
+
+.basic_layout #report_operation_box {
+	height: 165px;
+}
+
+.basic_layout .normal_column {
+    width: 355px;
+    float: left;
+}
+
+.powi_layout {
+    width: 855px;
+}
+
+.powi_layout .box {
+    width: 850px;
+}
+
+.powi_layout .normal_column {
+    width: 355px;
+    float: left;
+}
+
+.powi_layout .normal_column .box {
+    width: 350px;
+}
+
+.powi_layout .wide_column {
+    width: 500px;
+    float: left;
+}
+
+.powi_layout .wide_column .box {
+    width: 495px;
+}
+
+.powi_layout .middleheight {
+    height: 340px;
+}
+
+.powi_layout #ab_gift {
+    height: 120px;
+}
+
+.powi_layout #select_specialist_box {
+    height: 57px; width: 245px;
+}
+
+.powi_layout #start_button_container {
+    height: 57px; width: 245px;margin-right: 0
+}
+
+.powi_layout #select_proc_box {
+    height: 58px; width: 245px; 
+}
+
+.powi_layout #stop_button_container {
+    height: 58px; width: 245px;margin-right: 0
+}
+
+#powi_header {
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 8px;
+    width: 285px;
+}
+
+#report_header {
+    color: #fff;
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+.orange {
+    background: #FFDB3B !important;
+}
+
+@media print {
+    .report_bar { display: none }
+    #room_name { display: none }
+    #report_title { text-align: center }
+    #comments_place_report { display: none }
+    .field { border: 1px solid #000 }
+    #comment_box { margin-top: 20px; border: 1px solid #000; height: 500px }
+    #report_comments { height: auto; overflow: visible; white-space: pre-wrap; word-wrap: break-word;  }
+}

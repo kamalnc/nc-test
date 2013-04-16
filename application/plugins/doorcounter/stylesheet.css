@@ -1,0 +1,36 @@
+
+.doorcount_layout{	
+	text-align: center;
+	font-size: 7.0em;
+	margin-top: -0.25em;
+}
+
+#doorcount_standard{
+	color: #000000;
+	left: 0.95em;
+	font-size: 1.5em;
+	margin-top: -1.25em;
+	position: absolute;
+}
+
+#doorcount_max{
+	color: #000000;
+	right: 1em;
+	font-size: 1.5em;
+	margin-top: -1.25em;
+	position: absolute;
+}
+
+#door_footbanner{
+	font-size: 0.30em;
+	font-weight: bold;
+	color: #7f8083;
+	position: absolute;
+	bottom: 3pt;
+	left: 6pt;
+}
+
+#doorcounter .infoImage {
+	width: 0.6em;
+	height: 0.6em;
+}

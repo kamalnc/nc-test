@@ -1,0 +1,77 @@
+#time_given0{
+	position: absolute;
+	font-size: 1.8em;
+	color: #262262;
+	margin-top: 0.4em;
+	left: 0.2em;
+}
+
+#antibiotic_name0{
+	text-align: center;
+	font-size: 1.5em;
+	color: #262262;
+	margin-top: 0.6em;
+}
+
+#dose0{
+	position: absolute;
+	font-size: 1.2em;
+	color: #262262;
+	top: 1.0em;
+	right: 0.5em;
+}
+
+#time_given1{
+	position: absolute;
+	font-size: 1.8em;
+	color: #262262;
+	top: 1.5em;
+	left: 0.2em;
+}
+
+#antibiotic_name1{
+	text-align: center;
+	font-size: 1.5em;
+	color: #262262;
+	top: 2.8em;
+}
+
+#dose1{
+	position: absolute;
+	font-size: 1.2em;
+	color: #262262;
+	top: 2.8em;
+	right: 0.5em;
+}
+
+
+#time_given2{
+	position: absolute;
+	font-size: 1.8em;
+	color: #262262;
+	top: 2.7em;
+	left: 0.2em;
+}
+
+#antibiotic_name2{
+	text-align: center;
+	font-size: 1.5em;
+	color: #262262;
+	top:4.5em;
+}
+
+#dose2{
+	position: absolute;
+	font-size: 1.2em;
+	color: #262262;
+	top: 4.5em;
+	right: 0.5em;
+}
+
+#nothing{
+	text-align: center;
+	font-size: 1.5em;
+	color: #262262;
+	margin-top: 2.0em;
+}
+

@@ -1,0 +1,15 @@
+#logo {
+	text-align: center;
+}
+
+#round_logo {
+	width: 5em;
+	margin-top: 1.6em;
+}
+
+#name {
+	width: 8em;
+	position: absolute;
+	bottom: 0.3em;
+	left: 0.3em;
+}

@@ -1,0 +1,27 @@
+<?php
+$this->setScriptPath(PLUGINS_PATH);
+/* @var $item Resource_Dashboard_Item */
+?>
+
+<div id="layout" data-width="<?php echo $this->layout->width?>" data-height="<?php echo $this->layout->height?>"  data-room="<?php echo $this->room_id?>">
+    <?php foreach ($this->items as $item): ?>
+        <div data-height="<?php echo $item->height; ?>" 
+             data-width="<?php echo $item->width; ?>" 
+             class="module <?php echo $item->plugin_class; ?>" 
+             id="<?php echo $item->plugin_name; ?>" 
+             <?php 
+                if('1'  == $item->popup) {
+                    echo 'data-popuptext="' . $item->popuptext .'"';
+                }
+             ?>
+             >
+
+            <?php 
+            $data = method_exists($item->data_object, 'extractData')? $item->data_object->extractData(): array();
+            //TODO: template.phtml exists?
+            $data['plugin_name'] = $item->plugin_name;
+            echo $this->partial($item->plugin_name . '/template.phtml', $data); ?>
+
+        </div>
+    <?php endforeach; ?>
+</div>
